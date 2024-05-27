@@ -213,7 +213,7 @@ func main() {
 	for i, v := range TextContent {
 		textBrush.DrawFontOnRGBA(des, image.Pt(450, 100+80*i), v)
 	}
-	if err := SaveImage("./output.gif", des); err != nil {
+	if err := SaveImage("./output.png", des); err != nil {
 		log.Fatal(err)
 	}
 }
