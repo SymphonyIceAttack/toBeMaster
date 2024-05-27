@@ -5,6 +5,9 @@ It can generate the picture for like the master picture which is made on the bas
 # How use it ?
 
 You can config the env file to custom the png
+```
+go mod tidy
+```
 
 ```
 go run main.go
